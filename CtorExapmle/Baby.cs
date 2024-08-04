@@ -16,7 +16,8 @@ namespace CtorExapmle
         // default constructure
         public Baby()
         {
-
+            Console.WriteLine("Ingaaa");
+            _dateOfBirth = DateTime.Now;
         }
         // constructure with parameters
         public Baby(string firstName, string lastName)
